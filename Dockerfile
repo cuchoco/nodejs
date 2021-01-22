@@ -1,4 +1,3 @@
-Dockerfile
 FROM node:15.3.0-alpine3.10
 RUN apk add --no-chace tini curl 
 WORKDIR /app
