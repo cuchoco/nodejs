@@ -1,5 +1,5 @@
 FROM node:15.3.0-alpine3.10
-RUN apk add --no-chace tini curl 
+RUN apk add --no-cache tini curl 
 WORKDIR /app
 COPY runapp.js .
 EXPOSE 6060
