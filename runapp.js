@@ -5,6 +5,6 @@ server.on(‘request’, (req,res) =>{
 	res.write(“HostName: ” + process.env.HOSTNAME + “\n”);
 	res.end();
 });
-server.on(‘connection’, (socker) => {
+server.on(‘connection’, (socket) => {
 	console.log(“Connected”);
 });
